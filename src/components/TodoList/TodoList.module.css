@@ -1,0 +1,43 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    
+    .item{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .title{
+        font-size: 2rem;
+    }
+    
+    .closeTodo{
+        font-size: 2rem;
+        color: grey;
+        text-decoration: line-through;
+    } 
+    
+    .icon{
+        font-size: 1.8rem;
+    }
+    
+    .icon:hover{
+        cursor: pointer;
+        color: #333d6b;
+    }
+    
+    .icon_wrapper{
+        display: flex;
+        gap: 4px;
+    }
+    
+    .item_input{
+        width: 250px;
+        padding: 0.1rem;
+        font-size: 1.8rem;
+        border: none;
+        background: #fff;
+        outline: none;
+    }

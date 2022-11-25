@@ -1,0 +1,34 @@
+.wrapper{
+    display: flex;
+    
+    padding: 10px;
+}
+
+.input{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: #fff;
+    outline: none;
+
+}
+
+.btn{
+    font-size: 53px;
+    padding: 5px;
+    color: #333d6b;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s ease;
+    border: none;
+    
+}
+
+.btn:hover{
+    background: #cf3c14;
+    color: #fff;
+}
